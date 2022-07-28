@@ -26,3 +26,90 @@ ion-menu-button {
 #container a {
   text-decoration: none;
 }
+
+ion-header {
+  
+  img {
+    transform: scale(1.2, 1.2);
+    opacity: .2;
+    position: absolute;
+    top: -120px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  }
+}
+
+ion-content {
+  ion-card {
+
+    overflow: visible;
+    height: 120px;
+    box-shadow: none;
+    border-radius: 18px;
+    margin: 38px 0;
+
+    ion-col {
+      ion-img {
+        position: relative;
+        bottom: 36px;
+        width: 120px;
+      }
+    }
+
+    .mask {
+      img {
+        width: 240px;
+        position: absolute;
+        bottom: 0px;
+        left: 140px;
+        mask-image: linear-gradient(to top, rgba(0,0,0,.1), rgba(0,0,0,0));
+      }
+    }
+
+    ion-badge {
+      margin-top: 8px;
+      background: rgba(0,0,0,.08);
+    }
+
+    ion-card-title {
+      font-weight: 900;
+    }
+
+    .no {
+      color: rgba(0,0,0,.66);
+      font-weight: bold;
+    }
+  }
+}
+
+#Telec{
+  text-align: center;
+  color: yellow;
+  margin: 5px 5px;
+}
+
+#Tagua{
+  text-align: center;
+  color: #4DB2E7;
+  margin: 5px 5px;
+}
+
+#Tplanta{
+  text-align: center;
+  color: #5FE052;
+  margin: 5px 5px;
+}
+
+#morebadge{
+  margin: 0px 8px;
+}
+
+#bmas{
+  font-size: 10px;
+  margin: 15px 37px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+#regionbtn{
+  font-size: 20px;
+}
